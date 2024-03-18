@@ -7,7 +7,8 @@ import MobileNav from "./MobileNav"
 
 const Header = () => {
     return (
-        <header className="w-full border-b">
+        // CHANGE BG COLOUR AFTER
+        <header className="w-full border-b bg-gray-500"> 
             <div className="wrapper flex items-center justify-between">
                 <Link href="/" className="w-36">
                     <Image

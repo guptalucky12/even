@@ -51,7 +51,7 @@ export const formatPrice = (price: string) => {
   const amount = parseFloat(price)
   const formattedPrice = new Intl.NumberFormat('en-US', {
     style: 'currency',
-    currency: '₹',
+    currency: 'USD',
   }).format(amount)
 
   return formattedPrice
@@ -87,7 +87,17 @@ export function removeKeysFromQuery({ params, keysToRemove }: RemoveUrlQueryPara
   )
 }
 
+// export const handleError = (error: unknown) => {
+//   console.error(error)
+//   throw new Error(typeof error === 'string' ? error : JSON.stringify(error))
+// }
+
 export const handleError = (error: unknown) => {
-  console.error(error)
-  throw new Error(typeof error === 'string' ? error : JSON.stringify(error))
+  if (typeof error === 'object') {
+    console.error("Received an empty error object");
+    return; // Do not throw an error for an empty object
+  }
+
+  console.error(error);
+  throw new Error(typeof error === 'string' ? error : JSON.stringify(error));
 }

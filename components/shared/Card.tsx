@@ -67,6 +67,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
               <p className="text-primary-500">Order Details</p>
               <Image src="/assets/icons/arrow.svg" alt="search" width={10} height={10} />
             </Link>
+            
           )}
         </div>
       </div>

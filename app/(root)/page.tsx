@@ -29,9 +29,10 @@ export default async function Home({ searchParams }: SearchParamProps) {
             CELEBRATE YOUR HAPPINESS WITH OUR EXPERTISE!
             </h1>
             <p className="p-regular-20 md:p-regular-24">WE'LL FILL THE GAP BETWEEN YOU AND YOUR WISHES TO MAKE IT HAPPEN. CONTACT US TO MAKE YOUR DAY MORE SPECIAL OUR MENTORS WILL REACH YOU TO YOUR PATH.</p>
+            <p>IF ANY CAN CREATE THEIR OWN EVENT AND ANY ISSUE (CLIENT , B2B) VISIT CONTACT US.</p>
             <Button size="lg" asChild className="button w-full sm:w-fit">
-              <Link href="#eVenTO">
-                Explore Now
+              <Link href="/contact">
+                CONTACT US
               </Link>
             </Button>
           </div>

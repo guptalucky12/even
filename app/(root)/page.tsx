@@ -44,6 +44,15 @@ export default async function Home({ searchParams }: SearchParamProps) {
             className="max-h-[80vh] object-contain object-center 2xl:max-h-[60vh]"
           />
         </div>
+        <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-2 py-1">
+                <Image
+                    src="/assets/icons/location-grey.svg"
+                    alt="location"
+                    width={24}
+                    height={24}
+                />
+                AHMEDABAD
+            </div>
       </section>
 
       <section id="events" className="wrapper my-8 flex flex-col gap-8 md:gap-12">

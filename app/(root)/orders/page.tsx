@@ -12,7 +12,7 @@ const Orders = async ({ searchParams }: SearchParamProps) => {
 
   return (
     <>
-      <section className=" bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
+      <section className="bg-green-300 bg-dotted-pattern bg-cover bg-center py-5 md:py-1">
         <h3 className="wrapper h3-bold text-center sm:text-left ">Orders</h3>
       </section>
 
@@ -53,7 +53,8 @@ const Orders = async ({ searchParams }: SearchParamProps) => {
                         {formatDateTime(row.createdAt).dateTime}
                       </td>
                       <td className="min-w-[100px] py-4 text-right">
-                        {formatPrice(row.totalAmount)}
+                        {/* {formatPrice(row.totalAmount)} */}
+                        {`₹${row.totalAmount}`}
                       </td>
                     </tr>
                   ))}

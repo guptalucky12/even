@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const Help = () => {
     return (
         <>
@@ -6,6 +8,16 @@ const Help = () => {
                     <h3 className='h5-bold text-center sm:text-center'>CONTACT US</h3>
                 </div>
             </section>
+            <div className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
+                <Image
+                    src="/assets/icons/location-grey.svg"
+                    alt="location"
+                    width={24}
+                    height={24}
+                />
+                AHMEDABAD
+            </div>
+
             <div className="wrapper mx-3 py-3 my-4 group relative flex min-h-[260px] max-w-[400px] flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg">
                 <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-black">B2B TERMS & CONDITION:</p>
             </div>

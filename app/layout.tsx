@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: 'eVenTO Management Services',
   description: "eVenTO is a Platform for All Event Manage.",
   icons: {
-    icon: "/assets/images/favicon.ico"
+    icon: "/assets/images/log.png"
   }
 }
 

@@ -8,7 +8,7 @@ const About = () => {
                     <h3 className='h5-bold text-center sm:text-center'>ABOUT-US</h3>
                 </div>
             </section>
-            <div className="wrapper mx-3 py-3 my-4 group relative flex min-h-[480px] max-w-[400px] flex-col overflow-hidden rounded-xl shadow-md transition-all hover:shadow-lg bg-gray-800">
+            <div className="wrapper mx-3 py-2 my-4 px-3 group relative flex min-h-[480px] max-w-[350px] flex-col overflow-hidden rounded-xl shadow-md transition-all hover:shadow-lg bg-gray-800">
                 <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-white">eVenTO:</p>
                 <p className="p-2  text-white">
                     # Welcome to eVenTO - your premier destination for seamless event management services! At eVenTO, we specialize in organizing a wide array of events, ranging from intimate gatherings to grand celebrations. With our commitment to excellence and attention to detail, we ensure that every occasion is meticulously planned and flawlessly executed.

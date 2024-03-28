@@ -22,7 +22,7 @@ const Help = () => {
              bg-gray-800">
                 <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-white">B2B TERMS & CONDITION:</p>
                 <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-white"># Company Will Charge 83.53 Rupees For Per Ticket Of Any Type Of Free Seminar.</p>
-                <p className="p-2 text-white"># We'll Charge 835.30 Rupees For Any Kind Of Website Promotion.</p>
+                <p className="p-2 text-white"># We'll Charge 835.30 Rupees For Any Kind Of Event Promotion.</p>
                 <p className=" p-2 text-white"># If Other People Or A Company Create Event Through Our Website We Will Take Commission Of 20% Of Their Profit(For 6 Months).</p>
                 <p className=" p-2 text-white"># After Completion Of Six Months If The Company Wants To Maintain Its Event On The Website Then They Have To Renew The Event.</p>
                 <p className=" p-2 text-white"># For Any Further Information Contact Us Via Whatsapp: +91-8866*****</p>

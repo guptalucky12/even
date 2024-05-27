@@ -50,7 +50,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
       {/* Events Organized */}
       <section className="bg-lime-200 bg-dotted-pattern bg-cover bg-center py-5 md:py-0">
         <div className="wrapper flex items-center justify-center sm:justify-between">
-          <h3 className='h3-bold text-center sm:text-left'>Events Organized</h3>
+          <h3 className='h3-bold text-center sm:text-left'>Events Customized</h3>
           <Button asChild size="lg" className="button hidden sm:flex">
             <Link href="/events/create">
               Create New Event

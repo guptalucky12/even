@@ -20,16 +20,15 @@ const Help = () => {
 
             <div className="wrapper mx-3 py-3 my-4 group relative flex min-h-[260px] max-w-[400px] flex-col overflow-hidden rounded-xl shadow-md transition-all hover:shadow-lg
              bg-gray-800">
-                <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-white">B2B TERMS & CONDITION:</p>
-                <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-white"># Company Will Charge 83.53 Rupees For Per Ticket Of Any Type Of Free Seminar.</p>
-                <p className="p-2 text-white"># We'll Charge 835.30 Rupees For Any Kind Of Event Promotion.</p>
-                <p className=" p-2 text-white"># If Other People Or A Company Create Event Through Our Website We Will Take Commission Of 20% Of Their Profit(For 6 Months).</p>
-                <p className=" p-2 text-white"># After Completion Of Six Months If The Company Wants To Maintain Its Event On The Website Then They Have To Renew The Event.</p>
-                <p className=" p-2 text-white"># For Any Further Information Contact Us Via Whatsapp: +91-8866*****</p>
+                <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-white">CUSTOMIZED EVENTS:</p>
+                <p className="p-2 text-white"># The Customer Can Customize Events On His Own That Are Not Listed On Our Site.</p>
+                <p className="p-2 text-white"># The Customer Can Add His Or Her Budget, The Persons He Or She Wants To Invite.</p>
+                <p className=" p-2 text-white"># The Location He Or She Wants To Host The Event, And Any Theme If He Or She Wants To Do Something Particular.</p>
+                <p className=" p-2 text-white"># Than Our Staff Will Assist Them In Organizing The Event According To Their Requirements.</p>
             </div>
             <div className="wrapper mx-3 py-3 my-4 group relative flex min-h-[260px] max-w-[400px] flex-col overflow-hidden rounded-xl shadow-md transition-all hover:shadow-lg
              bg-gray-800">
-                <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-black text-white">HELP & SUPPORT:</p>
+                <p className="p-medium-16 md:p-medium-20 line-clamp-2 mx-3 py-1 flex-1 text-white">HELP & SUPPORT:</p>
                 <p className="p-2 text-white"> # My Tickets & Booking Issue : Contact - GUPTA LUCKY - +91-8866*****</p>
                 <p className=" p-2 text-white"> # B2B Issue(Create Event, Profit Margin ) : Contact - VISHESH SHAH - +91-8866*****</p>
                 <p className=" p-2 text-white"> # Photo & Video Issue(EDITING & OTHER) : Contact - DHRUMIL PATEL - +91-8866*****</p>

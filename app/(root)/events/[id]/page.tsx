@@ -42,7 +42,10 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
 
                 <p className="p-medium-18 ml-2 mt-2 sm:mt-0">
                   by{' '}
-                  <span className="text-primary-500">{event.organizer.firstName} {event.organizer.lastName}</span>
+                  <span className="text-primary-500">
+                    {/* {event.organizer.firstName} {event.organizer.lastName} */}
+                     {event.organizer ? `${event.organizer.firstName} ${event.organizer.lastName}` : 'Organizer not available'}
+                  </span>
                 </p>
               </div>
             </div>
@@ -77,7 +80,7 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
               <p className="p-medium-16 lg:p-regular-18 truncate text-primary-500 underline onclick cursor-pointer">
                 {event.url}
               </p>
-              <hr className='border'/>
+              <hr className='border' />
               <p className="p-bold-5 text-grey-600">(Copy Above Link and Paste it in a New Tab)</p>
             </div>
           </div>
